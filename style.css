@@ -1,0 +1,40 @@
+*{
+    transition: 0.3s;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+}
+ul {
+    list-style: none;
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+li { 
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    opacity: 0.4;
+    cursor: pointer;
+    border-radius: 50%;
+}
+ul li.active,
+ul li:hover  {
+    opacity: 1;
+}
+ul li:first-child {
+    background-color: pink;
+}
+ul li:nth-child(2) {
+    background-color: lightblue;
+}
+ul li:nth-child(3) {
+    background-color: lightgray;
+}
+ul li:nth-child(4) {
+    background-color: #ccccff;
+}
